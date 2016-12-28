@@ -5,7 +5,7 @@ public class Bulbasaur extends Pokemon{
 		
 		super(name, type, cp);
 	}
-
+	@Override
 	public void attack(){
 		System.out.println("Tackle...");
 	}
